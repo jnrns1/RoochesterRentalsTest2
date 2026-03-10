@@ -1,0 +1,11 @@
+# Rochester Rentals - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap (update with your actual domain)
+Sitemap: https://rochester-rentals.vercel.app/sitemap.xml
+
+# Block access to assets directory from search engines
+User-agent: *
+Disallow: /assets/*.js$
+Disallow: /assets/*.css$
