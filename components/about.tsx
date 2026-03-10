@@ -10,7 +10,7 @@ const stats = [
 export function About() {
   return (
     <section id="about" className="py-16 sm:py-20 lg:py-24 bg-muted/30">
-        <div className="container">
+      <div className="container">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Content */}
           <div className="space-y-6">
