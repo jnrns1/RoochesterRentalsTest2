@@ -43,7 +43,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={montserrat.variable}>
-      <body className="font-sans">{children}</body>
+      <body className="font-sans min-h-screen w-full overflow-x-hidden">{children}</body>
     </html>
   )
 }
