@@ -36,7 +36,7 @@ const amenities = [
 export function Amenities() {
   return (
     <section id="amenities" className="py-16 sm:py-20 lg:py-24">
-        <div className="container">
+      <div className="container">
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16">
           <p className="text-xs sm:text-sm font-semibold tracking-[0.3em] uppercase text-gold mb-4">
