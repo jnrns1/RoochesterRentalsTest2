@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description: "Discover premium rental properties in Rochester. Browse our curated selection of apartments, houses, and luxury rentals. Find your perfect home today.",
   keywords: ["Rochester rentals", "apartments", "houses", "property rental", "luxury rentals", "Rochester NY"],
   authors: [{ name: "Rochester Rentals" }],
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
     type: "website",
     title: "Rochester Rentals | Premium Property Rentals",
